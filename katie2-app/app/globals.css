@@ -28,16 +28,18 @@ body {
   font-size: 3rem;
   text-align: center;
   font-weight: bold;
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: antiquewhite;
 }
 
 .page__nav{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 2rem;
   text-align: center;
   font-family: 'Nanum Gothic Coding', monospace;
+  border-bottom: solid 0.5rem antiquewhite;
+  padding-bottom: 1rem;
 }
 
 
@@ -86,4 +88,12 @@ body {
   margin: 2rem;
   position: absolute;
   left: 80%;
+}
+
+.durham__pic{
+  opacity: 0.5;
+  margin: 2rem;
+  position: absolute;
+  left: 30%;
+  border-radius: 1rem;
 }
