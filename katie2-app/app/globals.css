@@ -82,7 +82,8 @@ body {
 }
 
 .cheering__woman{
-  opacity: 0.3;
-  animation: moveImage 40s infinite;
+  opacity: 0.5;
   margin: 2rem;
+  position: absolute;
+  left: 80%;
 }

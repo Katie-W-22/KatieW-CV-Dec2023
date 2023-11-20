@@ -34,13 +34,12 @@ With my background in mathematics, I have a creative, analytical mind and robust
 </p>
 
   </div>
-  <div>
+  <div className='cheering__woman'>
 <Image
       src={cheer}
       width={100}
       height={100}
       alt="Picture of a cake"
-      className='cheering__woman'
       />
 </div>
     </main>
