@@ -7,7 +7,12 @@ export default function Screen2 (){
     return(
         <>
         <p>This is Screen 2</p>
-        <Link href="/">Home </Link>
+        <div className='page__nav'>
+           <Link href="/">Home </Link>
+           <Link href="/screen1"> Screen 1 </Link>
+           <Link href="/screen3"> Screen 3 </Link>
+        </div>
+        
         </>
         
     )

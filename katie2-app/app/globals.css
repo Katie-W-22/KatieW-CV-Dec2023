@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+ 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +19,7 @@
 
 body {
   background-color:aquamarine;
-  
+  font-family: 'Nanum Gothic Coding', monospace;
   color: grey;
 }
 
@@ -26,6 +27,7 @@ body {
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 3rem;
   text-align: center;
+  font-weight: bold;
   padding: 2rem;
   background-color: antiquewhite;
 }
@@ -38,3 +40,24 @@ body {
   font-family: 'Nanum Gothic Coding', monospace;
 }
 
+
+
+@keyframes moveImage {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.floating__pics{
+  display: grid;
+  grid-template-columns: 1fr;
+  opacity: 0.3;
+  animation: moveImage 20s infinite;
+}
+
+.floating__welcome{
+  font-size: 1rem;
+}
