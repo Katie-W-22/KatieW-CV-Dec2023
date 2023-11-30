@@ -18,9 +18,11 @@ export default function Screen4 (){
         </div>
         
     <div className="hobbies">
-        <p>Project 1</p>
+        <p>Rotating Teck Stack</p>
 <br></br>
-<p>Project 2</p>
+<p>Weather App</p>
+<br></br>
+<p>Elfy - The Christmas Helper</p>
 </div>
     </>    
     )
