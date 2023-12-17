@@ -20,7 +20,7 @@
 body {
   background-color:aquamarine;
   font-family: 'Nanum Gothic Coding', monospace;
-  color: grey;
+  color: darkslategrey;
 }
 
 .name__title{
@@ -30,6 +30,7 @@ body {
   font-weight: bold;
   padding: 1.5rem;
   background-color: antiquewhite;
+  color: darkslategrey;
 }
 
 .page__nav{
@@ -40,6 +41,7 @@ body {
   font-family: 'Nanum Gothic Coding', monospace;
   border-bottom: solid 0.5rem antiquewhite;
   padding-bottom: 1rem;
+  color: darkslategrey;
 }
 
 
@@ -81,6 +83,7 @@ body {
 .intro__text{
   font-family: 'Nanum Gothic Coding', monospace;
   margin-inline: 8rem;
+  color: darkslategrey;
 }
 
 .cheering__woman{

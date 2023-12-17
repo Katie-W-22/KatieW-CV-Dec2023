@@ -18,11 +18,23 @@ export default function Screen4 (){
         </div>
         
     <div className="hobbies">
-        <p>Rotating Teck Stack</p>
-<br></br>
-<p>Weather App</p>
-<br></br>
-<p>Elfy - The Christmas Helper</p>
+<p>GitHub Links</p>
+<ul >
+<li className="pb-2"><a href="https://github.com/Katie-W-22">MY GITHUB PROFILE</a>
+</li>
+<li className="pb-2"><a href="https://github.com/Katie-W-22/KW-portfolio-page">First Attempt Portfolio</a>
+</li>
+<li className="pb-2"><a href="https://github.com/Katie-W-22/Rotating-shapes">Rotating Shapes</a>
+</li>
+<li className="pb-2"><a href="https://github.com/Katie-W-22/Katie-Weather-App">Weather App</a>
+</li>
+<li className="pb-2"><a href="https://github.com/Katie-W-22/KatieW-CV-styled">Styled Cards CV</a>
+</li>
+<li className="pb-2"><a href="https://github.com/Katie-W-22/Elfy-Christmas-helper">Elf - Christmas Helper</a>
+</li>
+<li className="pb-2"><a href="https://github.com/Katie-W-22/Interior-Design">Interior Design</a>
+</li>
+</ul>
 </div>
     </>    
     )
