@@ -1,29 +1,24 @@
 'use client'
 
-import Link from "next/link"
 import Image from 'next/image'
 import software from './software2.png'
+import Footer from '../comps/Footer'
+import Navbar from "../comps/Navbar"
 
 export default function Screen1 (){
     return(
         <>
-    <div>
-        <p className='name__title'>Tech Experience</p>
-        <div className='page__nav'>
-        <Link href="/">Home</Link>
-     <Link href="/screen1">Tech Experience</Link>
-     <Link href="/screen2">Education</Link>
-     <Link href="/screen3">Hobbies</Link>
-     <Link href="/screen4">Projects</Link>
-        </div>
+    <div className='bg-white w-full'>
+        <p className='name__title '>Tech Experience</p>
+        <Navbar/>
     </div>
         <div className='floating__pics'>
      <Image
       src={software}
       width={100}
       height={100}
-      alt="Picture of a cake"
-      className='cake__pic'
+      alt="Picture of a computer"
+      className='cake__pic pt-4'
       />
       </div>
       <div className="hobbies">
@@ -58,6 +53,7 @@ o	Designed presentation slides & format for demo to industry experts.
 </p>
 <h2 className="font-bold">Coming soon - SoC month-long final project!</h2>
       </div>
+      <Footer/>
         </>
         
         

@@ -18,30 +18,31 @@
 }
 
 body {
-  background-color:aquamarine;
   font-family: 'Nanum Gothic Coding', monospace;
+  background-color: #a7f3d0;
   color: darkslategrey;
 }
 
 .name__title{
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 3rem;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
-  padding: 1.5rem;
-  background-color: antiquewhite;
+  padding-left: 1rem;
+  background-color: white;
   color: darkslategrey;
 }
 
-.page__nav{
+.page__nav_top, .page__nav_bottom{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin: 2rem;
   text-align: center;
   font-family: 'Nanum Gothic Coding', monospace;
-  border-bottom: solid 0.5rem antiquewhite;
+
   padding-bottom: 1rem;
   color: darkslategrey;
+  gap: 1rem;
 }
 
 
@@ -56,9 +57,7 @@ body {
 }
 
 .floating__pics{
-  display: grid;
-  grid-template-columns: 1fr;
-  opacity: 0.3;
+  opacity: 0.2;
   animation: moveImage 40s infinite;
 }
 
@@ -67,11 +66,10 @@ body {
 }
 
 .hobbies{
-  text-align: center;
-  background-color: pink;
+  text-align: left;
+  background-color: white;
   padding: 2rem;
-  margin: 2rem;
-  border: solid 0.5rem antiquewhite;
+  margin: 3rem;
   border-radius: 1rem;
 }
 
@@ -80,18 +78,6 @@ body {
   font-family: 'Nanum Gothic Coding', monospace;
 }
 
-.intro__text{
-  font-family: 'Nanum Gothic Coding', monospace;
-  margin-inline: 8rem;
-  color: darkslategrey;
-}
-
-.cheering__woman{
-  opacity: 0.5;
-  margin: 2rem;
-  position: absolute;
-  left: 80%;
-}
 
 .durham__pic{
   opacity: 0.5;

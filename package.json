@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@babel/core": "^7.23.3"
+    "@babel/core": "^7.23.3",
+    "lucide-react": "^0.309.0"
   }
 }

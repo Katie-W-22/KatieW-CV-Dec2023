@@ -1,21 +1,20 @@
 'use client'
 
-import Link from "next/link"
-
+import Footer from '../comps/Footer'
+import Navbar from '../comps/Navbar'
+import {
+    HoverCard,
+    HoverCardContent,
+    HoverCardTrigger,
+  } from "@/components/ui/hover-card"
 
 export default function Screen4 (){
     return(
     <>
-    <div>
-        <p className='name__title'>Projects</p>
-        <div className='page__nav'>
-        <Link href="/">Home </Link>
-        <Link href="/screen1">Tech Experience</Link>
-        <Link href="/screen2">Education</Link>
-        <Link href="/screen3">Hobbies</Link>
-        <Link href="/screen4">Projects</Link>
-        </div>
-        </div>
+    <div className='bg-white w-full'>
+        <p className='name__title '>Projects</p>
+        <Navbar/>
+    </div>
         
     <div className="hobbies">
 <p>GitHub Links</p>
@@ -36,6 +35,13 @@ export default function Screen4 (){
 </li>
 </ul>
 </div>
+<HoverCard>
+  <HoverCardTrigger >What's this stack?</HoverCardTrigger>
+  <HoverCardContent>
+    Next.js with Tailwind & shadcn components
+  </HoverCardContent>
+</HoverCard>
+<Footer />
     </>    
     )
     }

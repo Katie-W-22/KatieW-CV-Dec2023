@@ -1,21 +1,17 @@
 'use client'
 
-import Link from "next/link"
 import Image from 'next/image'
 import hobbies from './hobbies2.webp'
+import Footer from '../comps/Footer'
+import Navbar from '../comps/Navbar'
+
 
 export default function Screen3 (){
     return(
     <>
-    <div>
-        <p className='name__title'>Hobbies</p>
-        <div className='page__nav'>
-        <Link href="/">Home</Link>
-     <Link href="/screen1">Tech Experience</Link>
-     <Link href="/screen2">Education</Link>
-     <Link href="/screen3">Hobbies</Link>
-     <Link href="/screen4">Projects</Link>
-        </div>
+    <div className='bg-white w-full'>
+        <p className='name__title '>Hobbies</p>
+        <Navbar/>
     </div>
         <div className='floating__pics'>
      <Image
@@ -31,7 +27,7 @@ export default function Screen3 (){
             <p>Archery - I have an indoor class of level D & have earned 20m, 30, 40m and 50m badges.</p>
             <p>Baking - I have designed and created birthday and wedding cakes.</p>
         </div>
-       
+       <Footer />   
     </>
         
     )
