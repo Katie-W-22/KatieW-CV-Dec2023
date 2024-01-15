@@ -2,11 +2,7 @@
 
 import Footer from '../comps/Footer'
 import Navbar from '../comps/Navbar'
-import {
-    HoverCard,
-    HoverCardContent,
-    HoverCardTrigger,
-  } from "@/components/ui/hover-card"
+import { Card, CardContent } from "@/components/ui/card"
 
 export default function Screen4 (){
     return(
@@ -15,8 +11,51 @@ export default function Screen4 (){
         <p className='name__title '>Projects</p>
         <Navbar/>
     </div>
-        
-    <div className="hobbies">
+    <div className="p-1">
+    <Card>
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">         
+                    <p>GitHub Profile</p>
+                    <br/>
+                    <p>Katie-W-22</p>
+                 </span>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">         
+                    <p>Rotating Shapes</p>
+                    <br/>
+                    <p>Learning about CSS animations</p>
+                 </span>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">         
+                    <p>Weather App</p>
+                    <br/>
+                    <p>Restful APIs</p>
+                 </span>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">         
+                    <p>Interior Design</p>
+                    <br/>
+                    <p>BBC Sports app clone meets interior design!</p>
+                 </span>
+                </CardContent>
+              </Card>
+              </div>
+
+<Footer />
+    </>    
+    )
+    }
+
+    /*<div className="hobbies">
 <p>GitHub Links</p>
 <ul >
 <li className="pb-2"><a href="https://github.com/Katie-W-22">MY GITHUB PROFILE</a>
@@ -34,14 +73,4 @@ export default function Screen4 (){
 <li className="pb-2"><a href="https://github.com/Katie-W-22/Interior-Design">Interior Design</a>
 </li>
 </ul>
-</div>
-<HoverCard>
-  <HoverCardTrigger >What's this stack?</HoverCardTrigger>
-  <HoverCardContent>
-    Next.js with Tailwind & shadcn components
-  </HoverCardContent>
-</HoverCard>
-<Footer />
-    </>    
-    )
-    }
+</div> */
