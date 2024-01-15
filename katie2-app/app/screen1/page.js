@@ -5,13 +5,18 @@ import software from './software2.png'
 import Footer from '../comps/Footer'
 import Navbar from "../comps/Navbar"
 import { Card, CardContent } from "@/components/ui/card"
+import DrawerDemo from '../comps/Drawer'
 
 export default function Screen1 (){
     return(
         <>
-    <div className='bg-white w-full'>
-        <p className='name__title '>Tech Experience</p>
-        <Navbar/>
+    <div className='bg-white w-full fixed top-0'>
+      <div className="flex justify-between" >
+      <p className='name__title'>Tech</p>
+      <DrawerDemo/>
+      
+      </div>
+    <Navbar/>
     </div>
         <div className='floating__pics'>
      <Image
@@ -22,7 +27,7 @@ export default function Screen1 (){
       className='cake__pic pt-4'
       />
       </div>
-      <div className="p-1">
+      <div className="p-1 sm:hidden block">
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
