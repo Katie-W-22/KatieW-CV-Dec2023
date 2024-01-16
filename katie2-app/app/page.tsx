@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 import train from '../images/train3.png';
-import cheer from '../images/cheer.webp';
 import Footer from './comps/Footer';
 import Navbar from './comps/Navbar';
 import DrawerDemo from './comps/Drawer';
@@ -10,25 +9,17 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function Homescreen() {
   return (
     <>
-      <main>
-      <div className='bg-white w-full fixed top-0'>
-      <div className="flex justify-between" >
+     <div className='bg-orange-50 w-full fixed top-0'>
+      <div className="flex justify-between bg-orange-50" >
+      <p className='name__title bg-orange-50'>Katie Williams</p>
       <DrawerDemo/>
-      <p className='name__title '>Katie Williams</p>
+      
       </div>
     <Navbar/>
     </div>
-        <div className='floating__pics'>
-     <Image
-      src={train}
-      width={50}
-      height={50}
-      alt="Picture of a train"
-      className='cake__pic pt-4'
-      />
-      </div>
-      <div className="p-1 sm:hidden block">
-              <Card>
+        
+      <div className="p-1 sm:hidden block flex min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
+              <Card className="bg-zinc-500 text-white font-mono mt-20">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   
@@ -38,10 +29,19 @@ export default function Homescreen() {
               suggested not…I had just coded my first weather app and I was
               hooked!
             </p>
+            <div className='floating__pics'>
+     <Image
+      src={train}
+      width={50}
+      height={50}
+      alt="Picture of a computer"
+      className='cake__pic pt-4'
+      />
+      </div>
                      </span>
                 </CardContent>
               </Card>
-              <Card>
+              <Card  className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   <p>
@@ -51,8 +51,8 @@ export default function Homescreen() {
                  </span>
                 </CardContent>
               </Card>
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+              <Card className="text-zinc-500 bg-white font-mono">
+                <CardContent className="bg-zinc-500 text-white font-mono">
                   <span className="text-sm p-2 ">
                   <p>Thanks to the School
               of Code, I've been able to successfully integrate these skills into
@@ -64,7 +64,7 @@ export default function Homescreen() {
               </Card>
              
         </div>
-      </main>
+      
       <Footer />
     </>
   );

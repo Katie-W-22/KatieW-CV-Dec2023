@@ -10,7 +10,7 @@ import DrawerDemo from '../comps/Drawer'
 export default function Screen1 (){
     return(
         <>
-    <div className='bg-white w-full fixed top-0'>
+    <div className='bg-orange-50 w-full fixed top-0'>
       <div className="flex justify-between" >
       <p className='name__title'>Tech</p>
       <DrawerDemo/>
@@ -18,7 +18,15 @@ export default function Screen1 (){
       </div>
     <Navbar/>
     </div>
-        <div className='floating__pics'>
+        
+      <div className="p-1 sm:hidden block flex min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
+              <Card className="text-zinc-500 bg-white font-mono mt-20">
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">
+                    <h2>Full-stack Developer – The School of Code [09/2023 – 02/2024]</h2>
+                    <br/>
+                    <p>School of Code Bootcamp - One of only 90 people chosen from 3000 applications to take part in the sixteen-week, remote, intensive web development course.</p> 
+                    <div className='floating__pics'>
      <Image
       src={software}
       width={50}
@@ -26,17 +34,10 @@ export default function Screen1 (){
       alt="Picture of a computer"
       className='cake__pic pt-4'
       />
-      </div>
-      <div className="p-1 sm:hidden block">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
-                  <span className="text-sm p-2 ">
-                    <h2>Full-stack Developer – The School of Code [09/2023 – 02/2024]</h2>
-                    <br/>
-                    <p>School of Code Bootcamp - One of only 90 people chosen from 3000 applications to take part in the sixteen-week, remote, intensive web development course.</p> </span>
+      </div></span>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="bg-zinc-500 text-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   <p>Designing & implementing methods to perform & analyse user/product research.</p>
@@ -45,7 +46,7 @@ export default function Screen1 (){
                  </span>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   <p>Pair programming to build full-stack JavaScript applications to solve real-world problems.</p>
@@ -54,7 +55,7 @@ export default function Screen1 (){
                  </span>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="bg-zinc-500 text-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   
@@ -64,14 +65,14 @@ export default function Screen1 (){
                  </span>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   Tech Stack: JS| HTML| CSS| REACT| REST APIs|TDD| SQL| Git| AWS| Figma|& more!
                  </span>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="bg-zinc-500 text-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   <h2>SOCS – ‘School of Code Stash’ app (1-week project)</h2>
@@ -80,7 +81,7 @@ export default function Screen1 (){
                  </span>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   One week to ideate, design & build an application to solve a problem facing SoC bootcampers.
@@ -97,6 +98,7 @@ o	Designed presentation slides & format for demo to industry experts.
                 </CardContent>
               </Card>
             </div>
+     
       <Footer/>
         </>
         

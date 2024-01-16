@@ -5,7 +5,7 @@ import { Home, Computer, GraduationCapIcon, FerrisWheel, Laptop2 } from 'lucide-
 
 export default function Footer() {
   return (
-    <footer className="sm:hidden block fixed bottom-0 w-full bg-white">
+    <footer className="sm:hidden block fixed bottom-0 w-full bg-orange-50">
       <div className='page__nav_bottom flex justify-evenly items-center'>
         <Link href="/">
           <div className="flex flex-col items-center cursor-pointer">

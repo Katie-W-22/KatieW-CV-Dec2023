@@ -13,24 +13,16 @@ import DrawerDemo from '../comps/Drawer'
 export default function Screen3 (){
     return(
     <>
-    <div className='bg-white w-full fixed top-0'>
+    <div className='bg-orange-50 w-full fixed top-0'>
       <div className="flex justify-between" >
       <p className='name__title '>Hobbies</p>
       <DrawerDemo/>
       </div>
     <Navbar/>
     </div>
-        <div className='floating__pics'>
-     <Image
-      src={hobbies}
-      width={50}
-      height={50}
-      alt="Picture of a cake"
-      className='cake__pic'
-      />
-      </div>
-      <div className="p-1 sm:hidden block">
-              <Card>
+      
+      <div className="p-1 sm:hidden block flex min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
+              <Card className="mt-20">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                 <span className="text-sm p-2 ">
                     <p>Learning to speak Japanese</p> 
@@ -44,6 +36,15 @@ export default function Screen3 (){
       alt="Picture of a cake"
       className='cake__pic rounded-lg border'
       />
+        <div className='floating__pics'>
+     <Image
+      src={hobbies}
+      width={50}
+      height={50}
+      alt="Picture of a cake"
+      className='cake__pic pt-100'
+      />
+      </div>
                 </span>
                 </CardContent>
               </Card>

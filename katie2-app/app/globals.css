@@ -19,17 +19,17 @@
 
 body {
   font-family: 'Nanum Gothic Coding', monospace;
-  background-color: #a7f3d0;
+  background-color: #d1fae5;
   color: darkslategrey;
 }
 
 .name__title{
   font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: left;
   font-weight: bold;
   padding-left: 1rem;
-  background-color: white;
+  background-color: bg-orange-50;
   color: darkslategrey;
 }
 
