@@ -5,6 +5,9 @@ import software from './software2.png'
 import react from './react.png'
 import nextlogo from './nextlogo.png'
 import htmlogo from './htmlogo.png'
+import tdd from './tdd.webp'
+import socks1 from './socks1.png'
+import agile1 from './agile1.png'
 import Footer from '../comps/Footer'
 import Navbar from "../comps/Navbar"
 import { Card, CardContent } from "@/components/ui/card"
@@ -98,7 +101,16 @@ export default function Screen1 (){
               <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
-                  Tech Stack: JS| HTML| CSS| REACT| REST APIs|TDD| SQL| Git| AWS| Figma|& more!
+                  <p>Tech Stack: JS| HTML| CSS| REACT| REST APIs|TDD| SQL| Git| AWS| Figma|& more!</p>
+                  <div className='floating__pics'>
+     <Image
+      src={tdd}
+      width={50}
+      height={50}
+      alt="Picture of a tdd logo"
+      className='cake__pic pt-4'
+      />
+      </div>
                  </span>
                 </CardContent>
               </Card>
@@ -107,23 +119,60 @@ export default function Screen1 (){
                   <span className="text-sm p-2 ">
                   <h2>SOCS – ‘School of Code Stash’ app (1-week project)</h2>
 <br/>
-<a href="https://socs-ui.onrender.com/ ">Link - SOCS app on Render</a>
+<a href="https://socs-ui.onrender.com/ ">Link - SOCS app on Render</a><br/>
+<div className='floating__pics'>
+     <Image
+      src={socks1}
+      width={100}
+      height={100}
+      alt="Picture of socks"
+      className='cake__pic pt-4'
+      />
+      </div>
                  </span>
                 </CardContent>
               </Card>
               <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
-                  One week to ideate, design & build an application to solve a problem facing SoC bootcampers.
+                  <p>One week to ideate, design & build an application to solve a problem facing SoC bootcampers.
 
 Problem: Bootcampers need an organised, searchable repository for tech resources.
 
 Solution: SOCS – an app where bootcampers can view resources by topic or week studied.
-
-o	Lead front-end team in building an accessible, appealing & interactive UI & UX.
-o	Responsible for tracking discussions, outcomes & sprint planning, using FigJam. 
-o	Collaborated with back-end team to debug & test application (TDD).
-o	Designed presentation slides & format for demo to industry experts.
+</p>
+<div className='floating__pics'>
+     <Image
+      src={agile1}
+      width={100}
+      height={100}
+      alt="Picture of agile logo"
+      className='cake__pic pt-4'
+      />
+      </div>
+                 </span>
+                </CardContent>
+              </Card>
+              <Card className="text-zinc-500 bg-white font-mono">
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">
+                  <p>
+                    <ul>
+                      <li>Lead front-end team in building an accessible, appealing & interactive UI & UX.</li>
+                      <li>Responsible for tracking discussions, outcomes & sprint planning, using FigJam. </li>
+                      <li>Collaborated with back-end team to debug & test application (TDD).</li>
+                      <li>Designed presentation slides & format for demo to industry experts.</li>
+                    </ul>
+                  </p>
+<div className='floating__pics'>
+     <Image
+      src={agile1}
+      width={100}
+      height={100}
+      alt="Picture of agile logo"
+      className='cake__pic pt-4'
+      />
+      </div>
                  </span>
                 </CardContent>
               </Card>
