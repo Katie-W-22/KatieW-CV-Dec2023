@@ -4,11 +4,13 @@ import Footer from '../comps/Footer'
 import Navbar from '../comps/Navbar'
 import { Card, CardContent } from "@/components/ui/card"
 import DrawerDemo from '../comps/Drawer'
-import github from './github.jpeg'
+import github from './github2.png'
 import css1 from './css1.png'
 import interior from './interior.png'
 import restApi from './restApi.png'
 import nesst from './nesst1.png'
+import snowflake from './snowflake.png'
+import socks from './socks1.png'
 
 export default function Screen4 (){
     return(
@@ -93,7 +95,7 @@ export default function Screen4 (){
                     <a href="https://github.com/Katie-W-22/Elfy-Christmas-helper">REPO: Elfy</a>
                     <div className='floating__pics'>
      <Image
-      src={interior}
+      src={snowflake}
       width={100}
       height={100}
       alt="Picture of home interior logo"
@@ -142,7 +144,24 @@ export default function Screen4 (){
                  </span>
                 </CardContent>
               </Card>
-              
+              <Card className="bg-zinc-500 text-white font-mono">
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">
+                  <h2>SOCS – ‘School of Code Stash’ app (1-week project)</h2>
+<br/>
+<a href="https://socs-ui.onrender.com/ ">Link - SOCS app on Render</a><br/>
+<div className='floating__pics'>
+     <Image
+      src={socks}
+      width={100}
+      height={100}
+      alt="Picture of socks"
+      className='cake__pic pt-4'
+      />
+      </div>
+                 </span>
+                </CardContent>
+              </Card>
               
               </div>
 

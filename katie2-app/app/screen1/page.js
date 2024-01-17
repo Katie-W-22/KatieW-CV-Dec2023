@@ -102,7 +102,7 @@ export default function Screen1 (){
               <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
-                  <p>Tech Stack: JS| HTML| CSS| REACT| REST APIs|TDD| SQL| Git| AWS| Figma|& more!</p>
+                  <p>Tech Stack: JS| HTML| CSS| REACT| NEXT| REST APIs| JEST| PLAYWRIGHT| SQL| GIT| AWS| TAILWIND| TYPESCRIPT|</p>
                   <div className='floating__pics'>
      <Image
       src={tdd}
@@ -115,33 +115,17 @@ export default function Screen1 (){
                  </span>
                 </CardContent>
               </Card>
-              <Card className="bg-zinc-500 text-white font-mono">
-                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
-                  <span className="text-sm p-2 ">
-                  <h2>SOCS – ‘School of Code Stash’ app (1-week project)</h2>
-<br/>
-<a href="https://socs-ui.onrender.com/ ">Link - SOCS app on Render</a><br/>
-<div className='floating__pics'>
-     <Image
-      src={socks1}
-      width={100}
-      height={100}
-      alt="Picture of socks"
-      className='cake__pic pt-4'
-      />
-      </div>
-                 </span>
-                </CardContent>
-              </Card>
+              
               <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
-                  <p>One week to ideate, design & build an application to solve a problem facing SoC bootcampers.
-
-Problem: Bootcampers need an organised, searchable repository for tech resources.
-
-Solution: SOCS – an app where bootcampers can view resources by topic or week studied.
-</p>
+                  <p>
+                    <ul>
+                      <li>Friday Hackathons.</li>
+                      <li>Mid-term team project: One week to ideate, design & build an application to solve a problem facing SoC bootcampers.</li>
+                      <li>Final team project: Four weeks to plan & build an application for an external stakeholder.</li>
+                    </ul>
+                  </p>
 <div className='floating__pics'>
      <Image
       src={agile1}
@@ -159,10 +143,9 @@ Solution: SOCS – an app where bootcampers can view resources by topic or week 
                   <span className="text-sm p-2 ">
                   <p>
                     <ul>
-                      <li>Lead front-end team in building an accessible, appealing & interactive UI & UX.</li>
-                      <li>Responsible for tracking discussions, outcomes & sprint planning, using FigJam. </li>
-                      <li>Collaborated with back-end team to debug & test application (TDD).</li>
-                      <li>Designed presentation slides & format for demo to industry experts.</li>
+                      <li>Building accessible, appealing & interactive UI & UX.</li>
+                      <li>Tracking discussions, outcomes & sprint planning, using FigJam, Trello & GitHub Issues. </li>
+                      <li>Team workk & Mindset sessions.</li>
                     </ul>
                   </p>
 <div className='floating__pics'>
