@@ -2,6 +2,9 @@
 
 import Image from 'next/image'
 import software from './software2.png'
+import react from './react.png'
+import nextlogo from './nextlogo.png'
+import htmlogo from './htmlogo.png'
 import Footer from '../comps/Footer'
 import Navbar from "../comps/Navbar"
 import { Card, CardContent } from "@/components/ui/card"
@@ -43,6 +46,15 @@ export default function Screen1 (){
                   <p>Designing & implementing methods to perform & analyse user/product research.</p>
                   <br/>
                   <p>Collaborating in agile teams to ideate & design UIs, create wireframes & prototypes.</p>
+                  <div className='floating__pics'>
+     <Image
+      src={react}
+      width={100}
+      height={100}
+      alt="Picture of react logo"
+      className='cake__pic pt-4'
+      />
+      </div>
                  </span>
                 </CardContent>
               </Card>
@@ -52,6 +64,15 @@ export default function Screen1 (){
                   <p>Pair programming to build full-stack JavaScript applications to solve real-world problems.</p>
 <br/>
 <p>Working in an agile environment, using TDD, Git & GitHub to build applications.</p>
+<div className='floating__pics'>
+     <Image
+      src={nextlogo}
+      width={100}
+      height={100}
+      alt="Picture of next.js logo"
+      className='cake__pic pt-4'
+      />
+      </div>
                  </span>
                 </CardContent>
               </Card>
@@ -62,6 +83,15 @@ export default function Screen1 (){
 <p>Demoing applications to industry experts through the lens of user-personas.</p>
 <br/>
 <p>Team retrospectives to discuss successes, challenges & learn from any mistakes.</p>
+<div className='floating__pics'>
+     <Image
+      src={htmlogo}
+      width={100}
+      height={100}
+      alt="Picture of a computer"
+      className='cake__pic pt-4'
+      />
+      </div>
                  </span>
                 </CardContent>
               </Card>
