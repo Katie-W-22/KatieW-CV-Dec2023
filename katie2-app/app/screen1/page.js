@@ -8,6 +8,7 @@ import htmlogo from './htmlogo.png'
 import tdd from './tdd.webp'
 import socks1 from './socks1.png'
 import agile1 from './agile1.png'
+import testing from './testing.png'
 import Footer from '../comps/Footer'
 import Navbar from "../comps/Navbar"
 import { Card, CardContent } from "@/components/ui/card"
@@ -166,7 +167,7 @@ Solution: SOCS – an app where bootcampers can view resources by topic or week 
                   </p>
 <div className='floating__pics'>
      <Image
-      src={agile1}
+      src={testing}
       width={100}
       height={100}
       alt="Picture of agile logo"
