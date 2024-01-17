@@ -115,16 +115,15 @@ export default function Screen1 (){
                 </CardContent>
               </Card>
               
-              <Card className="text-zinc-500 bg-white font-mono">
+              <Card className="text-white bg-zinc-500 font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
-                  <p>
-                    <ul>
-                      <li>Friday Hackathons.</li>
-                      <li>Mid-term team project: One week to ideate, design & build an application to solve a problem facing SoC bootcampers.</li>
-                      <li>Final team project: Four weeks to plan & build an application for an external stakeholder.</li>
-                    </ul>
-                  </p>
+                    <p>Friday Hackathons.</p>
+                      <br/>
+                      <p>Mid-term team project: One week to ideate, design & build an application to solve a problem facing SoC bootcampers.</p>
+                      <br/>
+                      <p>Final team project: Four weeks to plan & build an application for an external stakeholder.</p>
+                      <br/>
 <div className='floating__pics'>
      <Image
       src={agile1}
@@ -140,13 +139,11 @@ export default function Screen1 (){
               <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
-                  <p>
-                    <ul>
-                      <li>Building accessible, appealing & interactive UI & UX.</li>
-                      <li>Tracking discussions, outcomes & sprint planning, using FigJam, Trello & GitHub Issues. </li>
-                      <li>Team workk & Mindset sessions.</li>
-                    </ul>
-                  </p>
+                      <p>Building accessible, appealing & interactive UI & UX.</p>
+                      <br/>
+                      <p>Tracking discussions, outcomes & sprint planning, using FigJam, Trello & GitHub Issues. </p>
+                      <p>Team workk & Mindset sessions.</p>
+                      <br/> 
 <div className='floating__pics'>
      <Image
       src={testing}
