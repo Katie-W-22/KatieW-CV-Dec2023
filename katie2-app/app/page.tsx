@@ -11,7 +11,7 @@ export default function Homescreen() {
     <>
      <div className='bg-orange-50 w-full fixed top-0'>
       <div className="flex justify-between bg-orange-50" >
-      <p className='name__title bg-orange-50'>Katie Williams</p>
+      <p className='name__title bg-orange-50'>Katie W</p>
       <DrawerDemo/>
       
       </div>
