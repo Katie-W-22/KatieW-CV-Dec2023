@@ -18,13 +18,13 @@ export default function Homescreen() {
     <Navbar/>
     </div>
         
-      <div className="p-1 sm:hidden block flex min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
+      <div className="p-1 sm:hidden block min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
               <Card className="bg-zinc-500 text-white font-mono mt-20">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">
                   
                   <p>
-              I thought I’d managed to hide my celebratory mini-cheer behind my
+              I thought I had managed to hide my celebratory mini-cheer behind my
               laptop, but the wry smile from the train-passenger across from me
               suggested not…I had just coded my first weather app and I was
               hooked!
