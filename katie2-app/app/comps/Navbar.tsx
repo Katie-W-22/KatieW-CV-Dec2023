@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
+    <>
     <nav className="hidden md:block text-xl bg-orange-50">
     <div className='page__nav_top flex space-x-4'>
     <Link href="/">Home</Link>
@@ -12,5 +13,11 @@ export default function Navbar() {
      <Link href="/screen4" className="hover:underline">Projects</Link>
      </div>
     </nav>
+    <footer className="md:hidden block text-xl bg-orange-50">
+      <div className='page__nav_bottom flex space-x-4'>
+        <p>Under construction</p>
+      </div>
+    </footer>
+    </>
   )
 }
