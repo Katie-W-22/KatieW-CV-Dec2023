@@ -6,6 +6,7 @@ import tech from '../images/tech.webp';
 import Footer from './comps/Footer';
 import Navbar from './comps/Navbar';
 import DrawerDemo from './comps/Drawer';
+import Large from './comps/Large';
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function Homescreen() {
@@ -84,7 +85,7 @@ export default function Homescreen() {
               </Card>
              
         </div>
-      
+      <Large />
       <Footer />
     </>
   );
