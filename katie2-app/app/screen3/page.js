@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import hobbies from './hobbies2.webp'
 import Footer from '../comps/Footer'
 import Navbar from '../comps/Navbar'
 import { Card, CardContent } from "@/components/ui/card"

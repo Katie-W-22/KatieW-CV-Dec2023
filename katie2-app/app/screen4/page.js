@@ -1,5 +1,5 @@
 'use client'
-
+import Image from 'next/image'
 import Footer from '../comps/Footer'
 import Navbar from '../comps/Navbar'
 import { Card, CardContent } from "@/components/ui/card"
