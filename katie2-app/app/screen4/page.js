@@ -26,7 +26,7 @@ export default function Screen4 (){
                   <span className="text-sm p-2 ">         
                     <p>Click below to vist my GitHub Profile</p>
                     <br/>
-                    <p>Katie-W-22</p>
+                    <p>GitHub: <a href="https://github.com/Katie-W-22">Katie-W-22</a></p>
                  </span>
                 </CardContent>
               </Card>
