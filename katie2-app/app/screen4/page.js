@@ -20,11 +20,11 @@ export default function Screen4 (){
     </div>
     
     
-    <div className="p-1 sm:hidden block flex min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
-              <Card className="mt-20">
+    <div className="p-1 sm:hidden block  min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
+              <Card className="mt-20 bg-zinc-500 text-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">         
-                    <p>GitHub Profile</p>
+                    <p>Click below to vist my GitHub Profile</p>
                     <br/>
                     <p>Katie-W-22</p>
                  </span>
