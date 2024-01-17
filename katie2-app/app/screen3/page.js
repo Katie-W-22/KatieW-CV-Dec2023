@@ -6,7 +6,7 @@ import Footer from '../comps/Footer'
 import Navbar from '../comps/Navbar'
 import { Card, CardContent } from "@/components/ui/card"
 import japan from './japan.jpeg'
-import archers from './archers.jpeg'
+import archery1 from './archery1.avif'
 import baking from './baking.jpeg'
 import DrawerDemo from '../comps/Drawer'
 
@@ -21,7 +21,7 @@ export default function Screen3 (){
     <Navbar/>
     </div>
       
-      <div className="p-1 sm:hidden block flex min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
+      <div className="p-1 sm:hidden block min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
               <Card className="mt-20">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                 <span className="text-sm p-2 ">
@@ -36,15 +36,6 @@ export default function Screen3 (){
       alt="Picture of a cake"
       className='cake__pic rounded-lg border'
       />
-        <div className='floating__pics'>
-     <Image
-      src={hobbies}
-      width={50}
-      height={50}
-      alt="Picture of a cake"
-      className='cake__pic pt-100'
-      />
-      </div>
                 </span>
                 </CardContent>
               </Card>
@@ -56,10 +47,10 @@ export default function Screen3 (){
                   <p>I have an indoor classification level D & have earned outdoor 20m, 30, 40m and 50m badges.</p>
                   <br/>
                   <Image
-      src={archers}
+      src={archery1}
       width={200}
       height={200}
-      alt="Picture of a cake"
+      alt="Picture of a vintage female archer"
       className='cake__pic rounded-lg border'
       />
                  </span>
@@ -79,13 +70,6 @@ export default function Screen3 (){
       alt="Picture of a cake"
       className='cake__pic rounded-lg border'
       />
-                 </span>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
-                  <span className="text-sm p-2 ">         
-                    <p>Code Wars</p>
                  </span>
                 </CardContent>
               </Card>
