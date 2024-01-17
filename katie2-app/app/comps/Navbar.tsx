@@ -13,7 +13,7 @@ export default function Navbar() {
      <Link href="/screen4" className="hover:underline">Projects</Link>
      </div>
     </nav>
-    <footer className="md:hidden block text-xl bg-orange-50">
+    <footer className="hidden md:block text-xl bg-orange-50">
       <div className='page__nav_bottom flex space-x-4'>
         <p>Under construction</p>
       </div>
