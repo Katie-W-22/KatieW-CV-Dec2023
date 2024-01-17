@@ -51,6 +51,7 @@ export default function Screen4 (){
                     <br/>
                     <p>Facilitating connections and shared accommodation for solo travellers!</p>
                     <a href="https://www.youtube.com/watch?v=SyPIFCDmNHA">Nesst Promo Video</a>
+                    <br/>
                     <a href="https://github.com/Katie-W-22/SoC-Final-Project">REPO: Nesst app info</a>
                     <div className='floating__pics'>
      <Image
@@ -64,45 +65,7 @@ export default function Screen4 (){
                  </span>
                 </CardContent>
               </Card>
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
-                  <span className="text-sm p-2 ">         
-                    <p>Rotating Shapes</p>
-                    <br/>
-                    <p>Learning about CSS animations</p>
-                    <a href="https://github.com/Katie-W-22/Rotating-shapes">REPO: Rotating Shapes</a>
-                    <div className='floating__pics'>
-     <Image
-      src={css1}
-      width={100}
-      height={100}
-      alt="Picture of css logo"
-      className='cake__pic pt-4'
-      />
-      </div>
-                 </span>
-                </CardContent>
-              </Card>
               <Card className=" bg-zinc-500 text-white font-mono">
-                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
-                  <span className="text-sm p-2 ">         
-                    <p>Weather App</p>
-                    <br/>
-                    <p>Restful APIs</p>
-                    <a href="https://github.com/Katie-W-22/Katie-Weather-App">REPO: Weather App</a>
-                    <div className='floating__pics'>
-     <Image
-      src={restApi}
-      width={100}
-      height={100}
-      alt="Picture of restful api logo"
-      className='cake__pic pt-4'
-      />
-      </div>
-                 </span>
-                </CardContent>
-              </Card>
-              <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">         
                     <p>Interior Design</p>
@@ -140,6 +103,47 @@ export default function Screen4 (){
                  </span>
                 </CardContent>
               </Card>
+              <Card className=" bg-zinc-500 text-white font-mono">
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">         
+                    <p>Weather App</p>
+                    <br/>
+                    <p>Restful APIs</p>
+                    <a href="https://github.com/Katie-W-22/Katie-Weather-App">REPO: Weather App</a>
+                    <div className='floating__pics'>
+     <Image
+      src={restApi}
+      width={100}
+      height={100}
+      alt="Picture of restful api logo"
+      className='cake__pic pt-4'
+      />
+      </div>
+                 </span>
+                </CardContent>
+              </Card>
+              
+              <Card>
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
+                  <span className="text-sm p-2 ">         
+                    <p>Rotating Shapes</p>
+                    <br/>
+                    <p>Learning about CSS animations</p>
+                    <a href="https://github.com/Katie-W-22/Rotating-shapes">REPO: Rotating Shapes</a>
+                    <div className='floating__pics'>
+     <Image
+      src={css1}
+      width={100}
+      height={100}
+      alt="Picture of css logo"
+      className='cake__pic pt-4'
+      />
+      </div>
+                 </span>
+                </CardContent>
+              </Card>
+              
+              
               </div>
 
 <Footer />
