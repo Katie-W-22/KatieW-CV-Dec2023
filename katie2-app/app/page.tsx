@@ -1,6 +1,8 @@
 'use client';
 import Image from 'next/image';
 import train from '../images/train3.png';
+import teacher from '../images/teacher.png';
+import tech from '../images/tech.webp';
 import Footer from './comps/Footer';
 import Navbar from './comps/Navbar';
 import DrawerDemo from './comps/Drawer';
@@ -34,7 +36,7 @@ export default function Homescreen() {
       src={train}
       width={50}
       height={50}
-      alt="Picture of a computer"
+      alt="Picture of a train"
       className='cake__pic pt-4'
       />
       </div>
@@ -48,6 +50,15 @@ export default function Homescreen() {
               With my background in mathematics & previous career in teaching, I have a creative, analytical
               mind and robust problem-solving skills. I have a passion for continuous learning, alongside strong
               teamworking, planning and presentation skills. </p>
+              <div className='floating__pics'>
+     <Image
+      src={teacher}
+      width={50}
+      height={50}
+      alt="Picture of a computer"
+      className='cake__pic pt-4'
+      />
+      </div>
                  </span>
                 </CardContent>
               </Card>
@@ -59,6 +70,15 @@ export default function Homescreen() {
               my new life as a full-stack developer who is raring to get started
               on the next project!
             </p>
+            <div className='floating__pics'>
+     <Image
+      src={tech}
+      width={50}
+      height={50}
+      alt="Picture of a train"
+      className='cake__pic pt-4'
+      />
+      </div>
                  </span>
                 </CardContent>
               </Card>
