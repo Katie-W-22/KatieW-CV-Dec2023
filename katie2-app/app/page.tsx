@@ -20,10 +20,10 @@ export default function Homescreen() {
     <Navbar/>
     </div>
         
-      <div className="p-1 sm:hidden block min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
-              <Card className="bg-zinc-500 text-white font-mono mt-20">
-                <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
-                  <span className="text-sm p-2 ">
+      <div className="p-1 block min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mt-40">
+              <Card className="bg-zinc-500 text-white font-mono mt-20 ">
+                <CardContent className="flex aspect-square items-center justify-center p-2 m-10 ">
+                  <span className="text-sm p-2 md:text-lg">
                   
                   <p>
               I thought I had managed to hide my celebratory mini-cheer behind my
@@ -45,7 +45,7 @@ export default function Homescreen() {
               </Card>
               <Card  className="text-zinc-500 bg-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
-                  <span className="text-sm p-2 ">
+                  <span className="text-sm p-2 md:text-lg">
                   <p>
               With my background in mathematics & previous career in teaching, I have a creative, analytical
               mind and robust problem-solving skills. I have a passion for continuous learning, alongside strong
@@ -64,7 +64,7 @@ export default function Homescreen() {
               </Card>
               <Card className="text-zinc-500 bg-white font-mono">
                 <CardContent className="bg-zinc-500 text-white font-mono">
-                  <span className="text-sm p-2 ">
+                  <span className="text-sm p-2 md:text-lg">
                   <p>Thanks to the School
               of Code, I've been able to successfully integrate these skills into
               my new life as a full-stack developer who is raring to get started

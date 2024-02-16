@@ -25,7 +25,7 @@ export default function Screen1 (){
     <Navbar/>
     </div>
         
-      <div className="p-1 sm:hidden block min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
+      <div className="p-1 min-h-screen w-screen flex-col items-center pb-40 md:pb-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mt-40">
               <Card className="text-zinc-500 bg-white font-mono mt-20">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">

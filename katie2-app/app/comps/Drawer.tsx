@@ -42,9 +42,9 @@ export default function DrawerDemo() {
       <br/>
                 <p>Email: katiecoder22@gmail.com</p>
                 <br/>
-                <p>LinkedIn profile: <a href="https://www.linkedin.com/in/katie-williams-b9652946/">Katie-Williams</a></p>
+                <p>LinkedIn profile: <a href="https://www.linkedin.com/in/katie-williams-b9652946/" style={{textDecoration: 'underline'}}>Katie-Williams</a></p>
                 <br/>
-                <p>GitHub profile: <a href="https://github.com/Katie-W-22">Katie-W-22</a></p>
+                <p>GitHub profile: <a href="https://github.com/Katie-W-22" style={{textDecoration: 'underline'}}>Katie-W-22</a></p>
             </DrawerDescription>
           </DrawerHeader>
           

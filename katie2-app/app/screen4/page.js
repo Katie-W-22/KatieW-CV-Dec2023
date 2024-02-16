@@ -27,13 +27,13 @@ export default function Screen4 (){
     </div>
     
     
-    <div className="p-1 sm:hidden block  min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 ">
+    <div className="p-1 min-h-screen w-screen flex-col items-center  pb-40 md:pb-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mt-40">
               <Card className="mt-20 bg-zinc-500 text-white font-mono">
                 <CardContent className="flex aspect-square items-center justify-center p-2 m-10">
                   <span className="text-sm p-2 ">         
                     <p>Click below to vist my GitHub Profile</p>
                     <br/>
-                    <p>GitHub: <a href="https://github.com/Katie-W-22">Katie-W-22</a></p>
+                    <p>GitHub: <a href="https://github.com/Katie-W-22" style={{textDecoration: 'underline'}}>Katie-W-22</a></p>
                     <div className='floating__pics'>
      <Image
       src={github}
@@ -52,9 +52,9 @@ export default function Screen4 (){
                     <p>Nesst (Final 4-week SoC project)</p>
                     <br/>
                     <p>Facilitating connections and shared accommodation for solo travellers!</p>
-                    <a href="https://www.youtube.com/watch?v=SyPIFCDmNHA">Nesst Promo Video</a>
+                    <a href="https://www.youtube.com/watch?v=SyPIFCDmNHA" style={{textDecoration: 'underline'}}>Nesst Promo Video</a>
                     <br/>
-                    <a href="https://github.com/Katie-W-22/SoC-Final-Project">REPO: Nesst app info</a>
+                    <a href="https://github.com/Katie-W-22/SoC-Final-Project" style={{textDecoration: 'underline'}}>REPO: Nesst app info</a>
                     <div className='floating__pics'>
      <Image
       src={nesst}
@@ -73,7 +73,7 @@ export default function Screen4 (){
                     <p>Interior Design</p>
                     <br/>
                     <p>BBC Sports app clone meets interior design!</p>
-                    <a href="https://github.com/Katie-W-22/Interior-Design">REPO: Interior Design</a>
+                    <a href="https://github.com/Katie-W-22/Interior-Design" style={{textDecoration: 'underline'}}>REPO: Interior Design</a>
                     <div className='floating__pics'>
      <Image
       src={interior}
@@ -92,7 +92,7 @@ export default function Screen4 (){
                     <p>Elfy Christmas Helper</p>
                     <br/>
                     <p>Get your fix of Christmas jokes & adverts!</p>
-                    <a href="https://github.com/Katie-W-22/Elfy-Christmas-helper">REPO: Elfy</a>
+                    <a href="https://github.com/Katie-W-22/Elfy-Christmas-helper" style={{textDecoration: 'underline'}}>REPO: Elfy</a>
                     <div className='floating__pics'>
      <Image
       src={snowflake}
@@ -111,7 +111,7 @@ export default function Screen4 (){
                     <p>Weather App</p>
                     <br/>
                     <p>Restful APIs</p>
-                    <a href="https://github.com/Katie-W-22/Katie-Weather-App">REPO: Weather App</a>
+                    <a href="https://github.com/Katie-W-22/Katie-Weather-App" style={{textDecoration: 'underline'}}>REPO: Weather App</a>
                     <div className='floating__pics'>
      <Image
       src={restApi}
@@ -131,7 +131,7 @@ export default function Screen4 (){
                     <p>Rotating Shapes</p>
                     <br/>
                     <p>Learning about CSS animations</p>
-                    <a href="https://github.com/Katie-W-22/Rotating-shapes">REPO: Rotating Shapes</a>
+                    <a href="https://github.com/Katie-W-22/Rotating-shapes" style={{textDecoration: 'underline'}}>REPO: Rotating Shapes</a>
                     <div className='floating__pics'>
      <Image
       src={css1}
@@ -149,7 +149,7 @@ export default function Screen4 (){
                   <span className="text-sm p-2 ">
                   <h2>SOCS – ‘School of Code Stash’ app (1-week project)</h2>
 <br/>
-<a href="https://socs-ui.onrender.com/ ">Link - SOCS app on Render</a><br/>
+<a href="https://socs-ui.onrender.com/ " style={{textDecoration: 'underline'}}>Link - SOCS app on Render</a><br/>
 <div className='floating__pics'>
      <Image
       src={socks}
