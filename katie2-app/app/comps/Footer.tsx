@@ -7,7 +7,7 @@ import { useState } from 'react';
 export default function Footer() {
   const [activeLink, setActiveLink] = useState('');
 
-  const handleSetActiveLink = (link) => {
+  const handleSetActiveLink = (link: string) => {
     setActiveLink(link);
   };
 

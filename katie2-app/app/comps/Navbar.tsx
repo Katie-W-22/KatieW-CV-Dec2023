@@ -6,7 +6,7 @@ export default function Navbar() {
 
   const [activeLink, setActiveLink] = useState('');
 
-  const handleSetActiveLink = (link) => {
+  const handleSetActiveLink = (link: string) => {
     setActiveLink(link);
   };
 
